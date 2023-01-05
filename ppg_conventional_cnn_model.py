@@ -12,6 +12,11 @@ from IPython.display import clear_output
 import tensorflow as tf
 from ppg_data_preprocessing import preprocess_according_paper2
 
+ECG_SAMPLING_RATE = 700
+PPG_SAMPLING_RATE = 64
+ACTIVITY_SAMPLING_RATE = 4
+EMG_SAMPLING_RATE = 700
+
 class PlotLearning(keras.callbacks.Callback):
     """
     Callback to plot the learning curves of the model during training.
