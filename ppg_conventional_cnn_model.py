@@ -9,6 +9,7 @@ from keras.models import load_model
 from tensorflow import keras
 from matplotlib import pyplot as plt
 from IPython.display import clear_output
+from tqdm import tqdm
 import tensorflow as tf
 from ppg_data_preprocessing import preprocess_according_paper2
 
