@@ -1,6 +1,6 @@
 from keras.models import Model,Sequential
 from keras import optimizers
-from keras.layers import Input,Convolution1D,BatchNormalization,GlobalAveragePooling1D,LSTM,Dense,Activation,Layer, Flatten
+from keras.layers import *
 import keras.backend as K
 import argparse
 from keras.callbacks import EarlyStopping
