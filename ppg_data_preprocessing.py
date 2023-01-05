@@ -26,7 +26,7 @@ def preprocess_according_paper2(subject_no):
     ecgTest = []
     labelTest = []
     for i in tqdm(range(1,16)):
-        pklFilePath = f'../input/ppgdalia/data/PPG_FieldStudy/S{i}/S{i}.pkl'
+        pklFilePath = f'kaggle/input/ppgdalia/data/PPG_FieldStudy/S{i}/S{i}.pkl'
         with open(pklFilePath, 'rb') as f:
             u = pickle._Unpickler(f)
             u.encoding = 'latin1'
