@@ -12,6 +12,7 @@ from IPython.display import clear_output
 from tqdm import tqdm
 import tensorflow as tf
 from ppg_data_preprocessing import preprocess_according_paper2
+from sklearn.metrics import mean_absolute_error
 
 ECG_SAMPLING_RATE = 700
 PPG_SAMPLING_RATE = 64
