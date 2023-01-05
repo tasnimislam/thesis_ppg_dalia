@@ -1,5 +1,10 @@
 import numpy as np
 
+ECG_SAMPLING_RATE = 700
+PPG_SAMPLING_RATE = 64
+ACTIVITY_SAMPLING_RATE = 4
+EMG_SAMPLING_RATE = 700
+
 def WindowGet(signal, samplingRate):
     window = []
     index = 0
